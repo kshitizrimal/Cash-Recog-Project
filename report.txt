@@ -1,0 +1,25 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 1 files
+Detected 0 errors that require attention
+--------------------------------------------------------------------------------
+================================================================================
+Detailed log follows:
+
+================================================================================
+--------------------------------------------------------------------------------
+Processing file 'v1.py'
+ outputting to 'v2.py'
+--------------------------------------------------------------------------------
+
+24:31: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+102:29: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+143:29: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+253:14: INFO: Renamed 'tf.contrib.saved_model.save_keras_model' to 'tf.keras.experimental.export'
+268:29: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+300:14: INFO: Renamed 'tf.contrib.saved_model.save_keras_model' to 'tf.keras.experimental.export'
+345:29: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+377:14: INFO: Renamed 'tf.contrib.saved_model.save_keras_model' to 'tf.keras.experimental.export'
+410:29: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+420:14: INFO: Renamed 'tf.contrib.saved_model.save_keras_model' to 'tf.keras.experimental.export'--------------------------------------------------------------------------------
+
